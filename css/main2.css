@@ -1,0 +1,203 @@
+body{
+    background-color: lightgray;
+}
+.main-menu{
+    width: 650px;
+    height: 950px;
+    margin: 50px auto;
+    background-color: whitesmoke;
+}
+.b{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    text-align: left;
+    padding: 15px;
+    float: left;
+    background-image: url("../rasmlar/1.jpg");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position:  right center;
+    box-sizing: border-box;
+    position: relative;
+}
+.b:before {
+    content: url("#");
+    border: 30px solid transparent;
+    border-bottom-color: white;
+    position: absolute;
+    top: 50px;
+    right: -65px;
+    transform: rotate(90deg);
+}
+.b p{
+    width: 230px;
+    text-align: justify;
+}
+.a{
+    width: 175px;
+    height: 200px;
+    border: 20px solid white;
+    top: 51px;
+    right:640px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    float: left;
+    margin-left: 75px;
+}
+h5{
+    color: red;
+}
+h3{
+    color: red;
+}
+.c{
+    width: 175px;
+    height: 200px;
+    border: 20px solid white;
+    top: 51px;
+    right:640px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    float: left;
+    margin-top: 50px;
+}
+.d{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    text-align: left;
+    float: left;
+    background-image: url("../rasmlar/2.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position:  15px center;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 75px;
+    margin-top: 50px;
+    padding: 15px 15px 15px 150px;
+}
+.d p{
+    width: 230px;
+    text-align: justify;
+}
+.d h3{
+    color: orange;
+}
+.d h5{
+    color: orange;
+}
+.d:after{
+    content: url("#");
+    border: 30px solid transparent;
+    border-bottom-color: white;
+    position: absolute;
+    top: 50px;
+    right: 405px;
+    transform: rotate(270deg);
+}
+.f{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    text-align: left;
+    padding: 15px;
+    float: left;
+    background-image: url("../rasmlar/4.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position:  right center;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 50px;
+}
+.f p{
+    width: 230px;
+    text-align: justify;
+}
+.e{
+    width: 175px;
+    height: 200px;
+    border: 20px solid white;
+    top: 51px;
+    right:640px;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+.f h3{
+    color: royalblue;
+}
+.f h5{
+    color: royalblue;
+}
+.f:before {
+    content: url("#");
+    border: 30px solid transparent;
+    border-bottom-color: white;
+    position: absolute;
+    top: 50px;
+    right: -65px;
+    transform: rotate(90deg);
+}
+.g{
+    width: 175px;
+    height: 200px;
+    border: 20px solid white;
+    top: 51px;
+    right:640px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    float: left;
+    margin-top: 50px;
+}
+.h{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    text-align: left;
+    float: left;
+    background-image: url("../rasmlar/3.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position:  25px center;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 75px;
+    padding: 15px 15px 15px 150px;
+}
+.h p{
+    width: 230px;
+    text-align: justify;
+}
+.h h3{
+    color: green;
+}
+.h h5{
+    color: green;
+}
+.h:after{
+    content: url("#");
+    border: 30px solid transparent;
+    border-bottom-color: white;
+    position: absolute;
+    top: 50px;
+    right: 405px;
+    transform: rotate(270deg);
+}
